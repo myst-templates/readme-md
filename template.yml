@@ -1,0 +1,30 @@
+jtex: v1
+kind: md
+title: Template for basic README.md
+description: Easily create a readme from existing MyST content
+template: template.md
+files:
+  - template.md
+  - LICENSE
+authors:
+  - name: Franklin Koch
+    github: fwkoch
+    affiliations:
+      - Curvenote
+version: 0.0.1
+license: MIT
+tags:
+  - readme
+thumbnail: ./screenshot.png
+github: https://github.com/myst-templates/readme-md
+doc:
+  - id: title
+    required: true
+  - id: authors
+parts:
+  - id: abstract
+    description: >
+      An abstract is a short summary of your research paper or report. A good
+      abstract will prepare readers for the detailed information to follow,
+      communicate the essence of the article and help readers take away and remember key points.
+    required: true
