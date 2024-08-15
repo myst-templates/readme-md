@@ -5,7 +5,6 @@ description: Easily create a readme from existing MyST content
 template: template.md
 files:
   - template.md
-  - LICENSE
 authors:
   - name: Franklin Koch
     github: fwkoch
